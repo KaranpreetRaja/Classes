@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="slf4j.jcl" type="repository">
+    <properties maven-id="org.slf4j:slf4j-jcl:1.7.3" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-jcl/1.7.3/slf4j-jcl-1.7.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.3/slf4j-api-1.7.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
