@@ -1,0 +1,34 @@
+
+body {
+  font-family: sans-serif;
+}
+h2 { font-family: sans-serif;
+     margin: 1px;
+   text-align: center;}
+
+
+.input { width: 20em; }
+
+
+p {
+  margin: 10px;
+}
+
+.box {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: rgb(220,220,220);
+}
+
+ 
+
+ .fieldName {
+   display: inline-block;
+   width: 20%;
+   padding-right: 10px;
+   font-family: sans-serif;
+ }
+
+ .buttons {text-align: center}

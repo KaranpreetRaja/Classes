@@ -1,0 +1,76 @@
+<!-- adapted from original work of Prof. M Brown and Amir Chinaei.
+EECS1012 - York University (CC)  FormsInput.html  for lab 2 22f -->
+
+<!doctype html>
+<html lang="en">
+<head>
+<title> F22 Form Example </title>
+<meta charset="utf-8">
+  <!-- <link href=" " rel="stylesheet">  -->  
+ 
+</head>
+
+<body>
+<form  action="https://www.eecs.yorku.ca/course_archive/2022-23/F/1012AB/welcome_get.php" method="get">
+
+<div class="box">
+  <!-- First Name input -->
+  <h2> LAS Student Information </h2>
+  <p> <span class="fieldName">First Name: </span>
+    <!-- complete the textbox for first name. Make sure it has class "input", and 'name' attribute is "firstName". 
+	  class is used by css, name attribute is used by the server  -->
+	<input type="text"  >
+  
+ </p>
+    <!-- Last Name input --> 
+  <p> <span class="fieldName"> Last Name: </span>
+   <!-- add a textbox for last name. Make sure its class is "input", and 'name' attribute is "lastName"  -->
+  </p>  
+
+   <!-- email input -->
+  <p> <span class="fieldName"> Email: </span>
+  <!-- add a textbox for email. Make sure its class is "input", and 'name' attribute is "email"  -->
+  </p>
+  
+  <hr>
+ 
+  <p> <span class="fieldName"> Program: </span>
+  <select name="program">   
+    <!-- complete the dropdown list.  The 'value' attribute is needed by the server. search w3school for details.
+      Make EECS the default selected one -->
+     
+  </select>
+  </p>
+
+   <p> <span class="fieldName"> Year: </span>
+   <!-- complete the radio button.  Make sure 'name' attribute is "year".  The 'value' attribute is needed by the server. search w3school for details.
+    Make first year as default checked one -->
+  </p>  
+
+  
+  <p> <span class="fieldName"> Hobbies: </span>
+   <input type="checkbox" name="hobby[]" value="Reading"/> Reading 
+   <!-- complete the checbox.  Make sure name attribute is "hobby[]". 'value' attribute is needed by the server.  search w3school for details.
+    Make 'Thinking' as default selected one -->
+  </p>
+
+  <hr>
+  <p>
+    <span class="fieldName"> Comment: </span>
+    <textarea name="comment" rows="2" cols="40">Enter your comment here ....
+    </textarea>
+  </p>
+
+  <hr>
+    <div class="buttons"> <!-- style="text-align:center;">  -->  
+
+	<!-- added two buttons, one for clearing data, one for submitting the form. Button text should be 'Clear' and 'Submit' respectively> -->
+  <!-- hint: <input> with type 'reset' and 'submit' can create reset and submit buttons respectively. search w3school for details. -->
+ <input type="submit">
+ 
+   </div> 
+
+</div>
+</form>
+</body>
+</html>
