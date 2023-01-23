@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  background-color:#eee;
+  overflow:auto;
+}
+
+body {
+	text-align:center;
+}
+
+div {
+	border:1px solid grey;
+	margin-top:20px;
+}
+
+#problem {
+	
+	margin:auto;
+	margin-top:20px;
+	height:80px;
+	text-align:left;
+	font-family:Luminary, cursive;
+	font-size:15px;
+	padding-left:20px;
+	padding-right:20px;
+	width: 90vw; /*  specify the width of this element relative to the width of the viewport. In Ex1, try other number to see the effect. Finally, change back to 90vw, */
+ 
+}
+footer{
+	margin-top:20px;
+	text-align:center;
+	font-size:10px;
+}
+
+/* Responsive layout - makes the three columns stack 
+on top of each other instead of next to each other */
+  img {
+    width: 100%;
+    height: auto;
+	margin-top:5px;
+	padding: 2px;
+	/* in Ex1, add one line here such that the img does not display */
+	 
+  }
+
+  [class*="column"] { 
+     width: 100%;
+     display:inline-block;
+     height:60vh;
+  }
+
+  header nav button{ 
+	  width:18%;
+	  font-size:8px;
+  }
+
+@media screen and (min-width:600px) {
+  [class*="column"] {
+    width:32%;
+  }
+  
+  header nav button{ 
+	width:9%;
+	font-size:1.2vw;
+  }
+}
+
